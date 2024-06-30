@@ -6,7 +6,7 @@ CryptSafe is a versatile C++ library designed to provide robust cryptographic fu
 
 CryptSafe leverages the Crypto++ library in C++ for implementing SHA-256, RSA, and AES cryptographic algorithms. The library ensures robust security through these advanced encryption standards. Furthermore, the Python `ctypes` library is utilized to create a static Python API, enhancing accessibility and usability across different programming environments.
 
-## Features
+## Functions in Library
 
 ### RSA Key Pair Generation
 
