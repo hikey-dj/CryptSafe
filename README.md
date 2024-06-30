@@ -3,3 +3,6 @@
 
 # Technical Implementation
   The project leverages the Crypto++ library in C++ for implementing cryptographic algorithms such as SHA-256, RSA, and AES. Additionally, the Python ctypes library is utilized to create a static Python API, enabling a seamless interface for users to interact with the cryptsafe library from Python . 
+
+# Features
+Explanation of the various functions that the library offers . 
