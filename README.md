@@ -36,3 +36,23 @@ CryptSafe leverages the Crypto++ library in C++ for implementing SHA-256, RSA, a
 
 These functions collectively enable CryptSafe to offer secure handling of encryption, decryption, and digital signatures using RSA and AES algorithms, ensuring confidentiality, integrity, and authenticity of digital data.
 
+## Usage
+
+### Library Compilation Instructions
+
+To compile a file using our library, please follow these steps:
+
+1. After extracting the zip file, you will find a `cryptsafe` folder within the main `CryptSafe` folder.
+2. Place your source file (e.g., `main.cpp`) in the same directory as the `cryptsafe` folder.
+3. To compile your file with `g++`, use the following command:
+######
+    g++ -o main main.cpp -I./cryptsafe -L./cryptsafe -lcryptsafe -lcryptopp
+   This command assumes you are including the library with `#include "cryptsafe/cryptsafe.hpp"` in your source file.
+  
+4. If you have included the library using `#include <cryptsafe/cryptsafe.hpp>`, compile your file with this command instead:
+######
+    g++ -o main main.cpp -I. -L./cryptsafe -lcryptsafe -lcryptopp
+  These instructions should help you successfully compile your program using the CryptSafe library.
+
+
+
