@@ -1,6 +1,6 @@
 # CryptSafe
 
-CryptSafe is a versatile C++ library designed to provide robust cryptographic functionalities. It allows users to validate digital signatures using SHA-256, RSA, and AES for secure encryption and decryption operations. Additionally, CryptSafe includes a command-line tool that enables users to interact with these cryptographic features through specific prompts. A static Python API is also available, providing Python developers with a convenient interface to upload files securely.
+CryptSafe is a versatile C++ library designed to provide robust cryptographic functionalities. It allows users to **validate digital signatures** using **SHA-256**, **RSA**, and **AES** for secure encryption and decryption operations. Additionally, CryptSafe includes a command-line tool that enables users to interact with these cryptographic features through specific prompts. A static **Python API** is also available, providing Python developers with a convenient interface to upload files securely.
 
 ## Technical Implementation
 
